@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" role="img" aria-label="합성 흉부 X선 코호트의 연령, 성별과 촬영 자세, 기관별 검사 구성">
+<style>text{font-family:sans-serif;fill:#222} .grid{stroke:#ddd;stroke-width:1} .axis{stroke:#333;stroke-width:1.2} .bar{fill:#4a7fb5} .tick{font-size:12px} .label{font-size:13px} .title{font-size:18px;font-weight:700} .subtitle{font-size:13px;fill:#555} .value{font-size:13px;font-weight:700}</style>
+<text x="450" y="30" text-anchor="middle" class="title">합성 흉부 X선 코호트 구성 (전체 272건, 153명)</text>
+
+<text x="450" y="72" text-anchor="middle" class="title">연령대별 검사 건수</text>
+<text x="100" y="96" class="subtitle">분모: 전체 272건; 환자 수는 각 구간에서 한 번 이상 촬영된 고유 환자</text>
+<line x1="100" y1="130" x2="820" y2="130" class="grid"/><text x="90" y="134" text-anchor="end" class="tick">120</text>
+<line x1="100" y1="175" x2="820" y2="175" class="grid"/><text x="90" y="179" text-anchor="end" class="tick">90</text>
+<line x1="100" y1="220" x2="820" y2="220" class="grid"/><text x="90" y="224" text-anchor="end" class="tick">60</text>
+<line x1="100" y1="265" x2="820" y2="265" class="grid"/><text x="90" y="269" text-anchor="end" class="tick">30</text>
+<line x1="100" y1="310" x2="820" y2="310" class="axis"/><text x="90" y="314" text-anchor="end" class="tick">0</text>
+<line x1="100" y1="130" x2="100" y2="310" class="axis"/>
+<rect x="145" y="296.5" width="70" height="13.5" class="bar"/><text x="180" y="288" text-anchor="middle" class="value">9건 / 5명</text><text x="180" y="332" text-anchor="middle" class="label">&lt;18세</text>
+<rect x="275" y="230.5" width="70" height="79.5" class="bar"/><text x="310" y="222" text-anchor="middle" class="value">53건 / 35명</text><text x="310" y="332" text-anchor="middle" class="label">18–39세</text>
+<rect x="405" y="238" width="70" height="72" class="bar"/><text x="440" y="229" text-anchor="middle" class="value">48건 / 32명</text><text x="440" y="332" text-anchor="middle" class="label">40–49세</text>
+<rect x="535" y="152.5" width="70" height="157.5" class="bar"/><text x="570" y="144" text-anchor="middle" class="value">105건 / 59명</text><text x="570" y="332" text-anchor="middle" class="label">50–64세</text>
+<rect x="665" y="224.5" width="70" height="85.5" class="bar"/><text x="700" y="216" text-anchor="middle" class="value">57건 / 35명</text><text x="700" y="332" text-anchor="middle" class="label">65세 이상</text>
+<text x="450" y="366" text-anchor="middle" class="subtitle">연령대 (세) · 막대 및 축 단위: 검사 건수 (건)</text>
+
+<text x="450" y="426" text-anchor="middle" class="title">성별 및 촬영 자세 분포</text>
+<text x="100" y="450" class="subtitle">분모: 검사 건수 비율은 272건, 고유 환자 수 비율은 153명; 괄호 전 건수, 후 환자 수</text>
+<line x1="100" y1="500" x2="820" y2="500" class="grid"/><text x="90" y="504" text-anchor="end" class="tick">200</text>
+<line x1="100" y1="555" x2="820" y2="555" class="grid"/><text x="90" y="559" text-anchor="end" class="tick">150</text>
+<line x1="100" y1="610" x2="820" y2="610" class="grid"/><text x="90" y="614" text-anchor="end" class="tick">100</text>
+<line x1="100" y1="665" x2="820" y2="665" class="grid"/><text x="90" y="669" text-anchor="end" class="tick">50</text>
+<line x1="100" y1="720" x2="820" y2="720" class="axis"/><text x="90" y="724" text-anchor="end" class="tick">0</text>
+<line x1="100" y1="500" x2="100" y2="720" class="axis"/>
+<rect x="205" y="570.4" width="70" height="149.6" class="bar"/><text x="240" y="558" text-anchor="middle" class="value">136건 / 72명</text><text x="240" y="743" text-anchor="middle" class="label">F</text>
+<rect x="315" y="570.4" width="70" height="149.6" class="bar"/><text x="350" y="558" text-anchor="middle" class="value">136건 / 81명</text><text x="350" y="743" text-anchor="middle" class="label">M</text>
+<rect x="525" y="517.6" width="70" height="202.4" class="bar"/><text x="560" y="506" text-anchor="middle" class="value">184건 / 130명</text><text x="560" y="743" text-anchor="middle" class="label">PA</text>
+<rect x="635" y="623.2" width="70" height="96.8" class="bar"/><text x="670" y="611" text-anchor="middle" class="value">88건 / 56명</text><text x="670" y="743" text-anchor="middle" class="label">AP</text>
+<text x="295" y="772" text-anchor="middle" class="subtitle">성별 (F/M)</text><text x="615" y="772" text-anchor="middle" class="subtitle">촬영 자세 (PA/AP)</text>
+<text x="450" y="800" text-anchor="middle" class="subtitle">축 단위: 검사 건수 (건); 자세별 환자 수는 중복될 수 있음</text>
+
+<text x="450" y="858" text-anchor="middle" class="title">기관별 검사 건수</text>
+<text x="170" y="882" class="subtitle">분모: 전체 272건, 153명 · 막대 단위: 검사 건수; 끝의 표기는 건수 / 고유 환자 수</text>
+<line x1="210" y1="900" x2="210" y2="1080" class="axis"/>
+<line x1="210" y1="1080" x2="810" y2="1080" class="axis"/>
+<line x1="210" y1="900" x2="210" y2="1080" class="grid"/><text x="210" y="1098" text-anchor="middle" class="tick">0</text>
+<line x1="360" y1="900" x2="360" y2="1080" class="grid"/><text x="360" y="1098" text-anchor="middle" class="tick">20</text>
+<line x1="510" y1="900" x2="510" y2="1080" class="grid"/><text x="510" y="1098" text-anchor="middle" class="tick">40</text>
+<line x1="660" y1="900" x2="660" y2="1080" class="grid"/><text x="660" y="1098" text-anchor="middle" class="tick">60</text>
+<line x1="810" y1="900" x2="810" y2="1080" class="grid"/><text x="810" y="1098" text-anchor="middle" class="tick">80</text>
+<text x="190" y="921" text-anchor="end" class="label">INST01</text><rect x="210" y="904" width="465" height="22" class="bar"/><text x="684" y="921" class="value">62건 / 53명</text>
+<text x="190" y="956" text-anchor="end" class="label">INST02</text><rect x="210" y="939" width="420" height="22" class="bar"/><text x="639" y="956" class="value">56건 / 48명</text>
+<text x="190" y="991" text-anchor="end" class="label">INST03</text><rect x="210" y="974" width="405" height="22" class="bar"/><text x="624" y="991" class="value">54건 / 48명</text>
+<text x="190" y="1026" text-anchor="end" class="label">INST04</text><rect x="210" y="1009" width="360" height="22" class="bar"/><text x="579" y="1026" class="value">48건 / 41명</text>
+<text x="190" y="1061" text-anchor="end" class="label">INST05</text><rect x="210" y="1044" width="390" height="22" class="bar"/><text x="609" y="1061" class="value">52건 / 50명</text>
+<text x="510" y="1117" text-anchor="middle" class="subtitle">검사 건수 (건)</text>
+</svg>
