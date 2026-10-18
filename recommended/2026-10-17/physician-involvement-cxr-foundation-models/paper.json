@@ -1,0 +1,15 @@
+{
+  "id": "physician-involvement-cxr-foundation-models",
+  "title": "Physician involvement and research quality in chest X-ray foundation models",
+  "authors": ["Ammar Ahmed Pallikonda Latheef", "V.J. Phillips", "Aditya Kulkarni", "Changhyun Park", "Pritam Mukherjee", "Paul Hyunsoo Yi"],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03205-0",
+  "abstract": "Chest radiograph foundation models (FMs) are developing rapidly, yet their reporting practices remain unknown. We systematically reviewed 41 FMs published through 3/24/2025 and assessed technical trends, CLAIM adherence, artifact sharing, and physician co-authorship. Transformers and large language model components were increasingly common, while model sharing was limited. Physician co-authorship was associated with higher CLAIM adherence and more frequent fairness discussion, supporting clearer reporting standards for clinically oriented AI research.",
+  "axes": ["보고 품질", "기관 간 일반화"],
+  "takeaway": "흉부 X선 파운데이션 모델 41편을 검토한 결과, 의사 공저자가 있으면 CLAIM 준수도와 공정성 논의가 더 높았고 모델 공유는 제한적이었다.",
+  "relevance": "우리 코호트는 흉부 X선 272건에 연령 9~87세, 남녀 동수(각 136건), 5개 기관, PA/AP 촬영이 섞여 있어 공정성과 하위군 보고 항목을 점검할 때 참고할 수 있습니다. 이런 파운데이션 모델을 평가용 데이터로 쓸 때 어떤 보고 항목을 확인해야 하는지 알려줍니다.",
+  "caveat": "체계적 문헌고찰이라 개별 모델의 진단 성능은 다루지 않으며, 우리 데이터로 모델 성능이나 보고 품질을 검증해 줄 수 없습니다.",
+  "check": "검토된 모델 중 기관별 또는 촬영 자세(AP/PA)별 성능 차이를 보고한 모델은 몇 편인가?"
+}
