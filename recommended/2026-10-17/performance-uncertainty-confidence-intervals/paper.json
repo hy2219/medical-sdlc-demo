@@ -1,0 +1,15 @@
+{
+  "id": "performance-uncertainty-confidence-intervals",
+  "title": "Performance uncertainty in medical image analysis: A large-scale investigation of confidence intervals",
+  "authors": ["Pascaline André", "Charles Heitz", "Evangelia Christodoulou", "Annika Reinke", "Carole H. Sudre", "Michela Antonelli", "Patrick Godau", "M. Jorge Cardoso", "Antoine Gilson", "Sophie Tézenas du Montcel", "Gaël Varoquaux", "Lena Maier‐Hein"],
+  "venue": "Medical Image Analysis",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1016/j.media.2026.104349",
+  "abstract": "Performance uncertainty quantification is essential for reliable validation and eventual clinical translation of medical imaging artificial intelligence (AI). Confidence intervals (CIs) play a central role in this process by indicating how precise a reported performance estimate is. Yet, due to the limited amount of work examining CI behavior in medical imaging, the community remains largely unaware of how many diverse CI methods exist and how they behave in specific settings. The purpose of this study is to close this gap. To this end, we conducted a large-scale empirical analysis across a total of 24 segmentation and classification tasks, using 19 trained models per task group, a broad spectrum of commonly used performance metrics, multiple aggregation strategies, and several widely adopted CI methods. Reliability (coverage) and precision (width) of each CI method were estimated across all settings to characterize their dependence on study characteristics. Our analysis revealed five principal findings: (1) the sample size required for reliable CIs varies from a few dozens to several thousands of cases depending on study parameters; (2) CI behavior is strongly affected by the choice of performance metric; (3) aggregation strategy substantially influences the reliability of CIs, e.g. they require more observations for macro than for micro; (4) the machine learning problem (segmentation versus classification) modulates these effects; (5) different CI methods are not equally reliable and precise depending on the use case. Finally, we derived practical implications of this study in the form of a decision tree which shall prove useful to the community. This paves the way for future consensus guidelines on reporting performance uncertainty.",
+  "axes": ["표본 크기와 불확실성"],
+  "takeaway": "신뢰구간이 믿을 만해지는 표본 수는 지표와 집계 방식에 따라 수십 건에서 수천 건까지 크게 달라지며, 상황에 맞는 CI 방법을 고르는 의사결정 트리를 제시한다.",
+  "relevance": "우리 코호트는 272건이고 이 중 'No Finding'이 145건(약 53%)이라 개별 이상 소견 라벨(예: Infiltration 21건, Atelectasis 16건, Nodule 7건)은 표본이 매우 작습니다. 소견별 성능을 보고할 때 신뢰구간이 얼마나 신뢰할 만한지 판단하는 근거가 됩니다.",
+  "caveat": "이 논문은 방법론 연구로 임상 코호트의 환자 결과를 다루지 않으며, 우리 데이터가 어떤 질환에 대한 AI 성능을 뒷받침하는지는 알려주지 못합니다.",
+  "check": "희귀 라벨이 많은 다중 라벨 분류에서 macro 집계를 쓸 때 소수 클래스당 몇 건이 있어야 CI가 신뢰할 만한가?"
+}
