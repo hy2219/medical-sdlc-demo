@@ -1,0 +1,28 @@
+{
+  "id": "anatomy-structured-hierarchical-mil",
+  "title": "Anatomy-Structured Hierarchical MIL for Weakly-Supervised Thoracic Disease Detection in Chest X-rays",
+  "authors": [
+    "Jeongin Kim",
+    "Sohyun Ahn",
+    "Seo Young Kang",
+    "Jaeyi Sung",
+    "Soomin Kim",
+    "Sungho Cho",
+    "Rena Lee",
+    "Kwanchang Kim",
+    "Junhyug Noh"
+  ],
+  "venue": "MICCAI",
+  "year": 2026,
+  "source": "arXiv",
+  "url": "http://arxiv.org/abs/2609.33520v1",
+  "abstract": "Weakly-supervised thoracic disease detection in chest X-rays (CXR) is challenging due to subtle appearances and complex anatomical overlap, motivating anatomy-aware modeling for improved localization. However, prior anatomy-aware methods typically rely on coarse region proxies or static spatial priors, which may restrict dynamic instance discovery and limit precise localization of small abnormalities. We propose Anatomy-Structured Hierarchical Multiple Instance Learning (ASH-MIL), a framework that introduces parallel anatomy-structured observation branches (cardiac, pulmonary, and agnostic) combined with hierarchical MIL aggregation. Anatomical priors are injected as soft spatial biases into decoder cross-attention, enabling anatomically grounded evidence maps without disease bounding-box supervision. Instance localization is derived directly from MIL-weighted cross-attention maps without bounding box supervision. Experiments on CXR8 and cross-domain MIMIC-CXR held-out sets demonstrate consistent improvements over prior weakly-supervised and anatomy-aware approaches, particularly under stricter localization criteria. Our code is available at https://github.com/jn-kim/ash-mil.",
+  "axes": [
+    "기관 간 일반화",
+    "라벨 구조"
+  ],
+  "takeaway": "해부학 구조를 사전 정보로 주입한 계층적 다중 인스턴스 학습이 박스 라벨 없이도 CXR8과 MIMIC-CXR 보류 세트에서 기존 약지도 방법보다, 특히 엄격한 국소화 기준에서 더 나은 결과를 보였다고 보고한다.",
+  "relevance": "우리 코호트의 라벨은 Atelectasis, Effusion, Nodule, Pneumothorax 등 CXR8 계열의 영상 수준 라벨이고 병변 위치 라벨은 없어, 이 논문의 약지도 설정과 맞물립니다. 5개 기관·9개 장비에서 모은 272장이라 교차 도메인 성능을 점검해 볼 대상이 됩니다.",
+  "caveat": "병변 위치 정답이 없어 국소화 정확도는 확인할 수 없고, Nodule 등 개별 소견은 한 자릿수 수준이라 통계적 검증력도 부족합니다.",
+  "check": "우리 영상에서 PA(184장)와 AP(88장) 촬영 간에 해부학 사전 정보의 효과가 달라지는지, 특히 심비대·흉수처럼 해부학 의존적 소견에서 차이가 있는가?"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "concept-intervention-debugging-medical-imaging",
+  "title": "Beyond Explanation: Debugging Medical Imaging Models via Concept Intervention",
+  "authors": [
+    "Samrajya Thapa",
+    "Daniel J. Quest",
+    "Timothy L. Kline",
+    "Carrie L. Langstraat",
+    "Emanuel C. Trabuco",
+    "Wei Le"
+  ],
+  "venue": "MICCAI",
+  "year": 2026,
+  "source": "arXiv",
+  "url": "http://arxiv.org/abs/2610.09031v1",
+  "abstract": "Medical imaging models often operate as black boxes, limiting interpretability and systematic debugging. We introduce an easy-to-use, plug-and-play framework for concept-based interpretation and model refinement. By aligning a single-modality encoder to BioMedCLIP, we construct a Concept Bottleneck Model (CBM) that enables concept-level interventions. These interventions allow us to isolate causal versus spuriously correlated concepts, validate insights with domain experts, and generate counterfactual samples for targeted fine-tuning. We evaluate our framework on a Mayo Clinic ultrasound dataset and the CheXpert 5x200 chest X-ray dataset. Results demonstrate that concept intervention enables reliable model diagnosis while maintaining, and occasionally improving predictive performance via guided fine-tuning. Our findings highlight the practical value of this framework for controlled, interpretable refinement of clinical deep learning models.",
+  "axes": [
+    "기관 간 일반화",
+    "임상의-AI 협업"
+  ],
+  "takeaway": "개념 병목 모델에서 개념 개입으로 인과적 개념과 허위 상관 개념을 가려내고, 반사실 샘플로 미세조정하면 성능을 유지하거나 때로 개선하며 모델을 점검할 수 있다고 보고한다.",
+  "relevance": "우리 데이터는 5개 기관·9개 장비·AP/PA 두 촬영 자세가 섞여 있어, 모델이 장비나 촬영 자세 같은 허위 상관을 학습했는지 점검할 동기가 분명합니다. 연령은 9–87세, 남녀 각 136장으로 하위집단 점검도 가능합니다.",
+  "caveat": "이 논문은 Mayo 초음파와 CheXpert 5x200에서 검증되어, 우리 코호트에 어떤 허위 상관이 실제 존재하는지, 개입이 임상 성능을 높이는지는 알려 주지 않습니다.",
+  "check": "기관·장비·촬영 자세를 개념으로 정의하면 개념 개입 후 예측이 얼마나 바뀌며, 그 변화가 임상적으로 의미 있는 방향인가?"
+}
