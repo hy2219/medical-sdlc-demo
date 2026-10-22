@@ -1,0 +1,31 @@
+{
+  "id": "cxr-lt-2026-long-tailed-zero-shot-classification",
+  "title": "CXR-LT 2026 challenge: Multi-center long-tailed and zero shot chest X-ray classification",
+  "authors": [
+    "Hexin Dong",
+    "Yi Lin",
+    "Pengyu Zhou",
+    "Fengnian Zhao",
+    "Alan Clint Legasto",
+    "Juno Cho",
+    "Dohui Kim",
+    "Justin N. Kim",
+    "Mingeon Kim",
+    "Sunwoo Kwak",
+    "Gabriel Moyà-Alcover",
+    "Ky Trung Nguyen"
+  ],
+  "venue": "Medical Image Analysis",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1016/j.media.2026.104340",
+  "abstract": "",
+  "axes": [
+    "기관 간 일반화",
+    "라벨 구조"
+  ],
+  "takeaway": "다기관 롱테일 및 제로샷 흉부 X선 분류를 다룬 CXR-LT 2026 챌린지 결과를 보고한다(초록 미제공).",
+  "relevance": "우리 코호트는 'No Finding' 145건 외에 Infiltration 45건, Effusion 33건, Nodule 12건, Pneumothorax 12건 등 소견이 긴 꼬리 분포를 이루고 다중 라벨이 50건(약 18%)입니다. 5개 기관(48~62건)에 걸친 라벨 희소성 문제가 이 챌린지의 주제와 직접 맞닿습니다.",
+  "caveat": "초록이 공개되지 않아 정확한 과제 정의와 지표는 본문 확인이 필요합니다. 우리 데이터는 소견당 표본이 너무 작아 롱테일 성능이나 제로샷 일반화를 검증할 수 없습니다.",
+  "check": "챌린지 상위 방법들이 희귀 소견(기흉, 결절)에서 기관 간 성능 편차를 얼마나 보고했는가?"
+}

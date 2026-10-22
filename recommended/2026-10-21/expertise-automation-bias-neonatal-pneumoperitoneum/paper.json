@@ -1,0 +1,30 @@
+{
+  "id": "expertise-automation-bias-neonatal-pneumoperitoneum",
+  "title": "Expertise modulates automation bias and sentinel behavior in human–AI collaborative diagnosis of neonatal pneumoperitoneum",
+  "authors": [
+    "Junseong Lee",
+    "Yeonsu Kim",
+    "Victoria Kim",
+    "Changhyun Park",
+    "Jeong Min Song",
+    "Jimin Kwon",
+    "Yoojin Nam",
+    "Patrick Lenehan",
+    "Dong  Yeong Kim",
+    "Young Ah Cho",
+    "Pyeong Hwa Kim",
+    "Jae-Yeon Hwang"
+  ],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03399-3",
+  "abstract": "Medical AI is often validated under an additive assumption that algorithmic sensitivity and clinician oversight will combine to improve care. We tested this assumption in the high-stakes diagnosis of neonatal pneumoperitoneum, a time-critical surgical emergency. In a multi-reader crossover study analyzing 1750 interpretation events, clinicians reviewed radiographs aided by either a high-reliability model or a systematically error-injected model. We found that high AI reliability paradoxically induces automation bias in trainees, who accepted 52.0% of incorrect suggestions, while offering limited gains to experts. Conversely, when challenged by flawed AI, the three participating neonatologists exhibited a “sentinel behavior” phenotype, correctly overriding 91.7% of errors (Wilson 95% CI: 83.0–96.0%) consistent with increased deliberation; given the small specialist cohort, this finding is hypothesis-generating and warrants prospective replication. We operationalize systemic resilience as the capacity to maintain diagnostic integrity under algorithmic failure and demonstrate that clinical validity depends on the human–AI team’s adversarial resilience rather than standalone accuracy. To mitigate the risk of deskilling and never-skilling, we release an open-source educational sandbox designed to inoculate clinicians against automated errors.",
+  "axes": [
+    "임상의-AI 협업"
+  ],
+  "takeaway": "고신뢰 AI는 수련의에게 자동화 편향을 유발해 오답 제안의 52.0%를 수용하게 했고, 전문의 3인은 오류 AI에 대해 91.7%를 올바르게 기각했다.",
+  "relevance": "우리 코호트는 272건 중 145건(약 53%)이 'No Finding'이고 다중 라벨이 50건(약 18%)이라, AI 제안이 정상/이상 판단과 다중 소견 사이에서 판독자에게 영향을 줄 여지가 큰 구성입니다. 응급 52건, 입원 74건 등 급성 상황의 판독 비중도 있어 오류 AI에 대한 판독자 대응이 실제 쟁점이 될 수 있습니다.",
+  "caveat": "신생아 기흉이 아닌 복강 내 유리가스 판독 연구이며, 우리 데이터에는 판독자별 기록과 AI 제안·판독자 수정 이력이 없어 자동화 편향을 측정할 수 없습니다. 참여 전문의가 3인이라 저자들도 가설 생성 수준으로 봅니다.",
+  "check": "우리 병원에서 AI 보조를 도입한다면 의도적 오류 주입 시험으로 수련의와 전문의의 오류 수용률을 따로 측정할 수 있을까?"
+}
