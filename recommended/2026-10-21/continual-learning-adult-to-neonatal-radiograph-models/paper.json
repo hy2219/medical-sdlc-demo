@@ -1,0 +1,30 @@
+{
+  "id": "continual-learning-adult-to-neonatal-radiograph-models",
+  "title": "Repurposing adult AI radiograph models for neonatal care through continual learning: an international multicentre study",
+  "authors": [
+    "Vishwanatha M. Rao",
+    "Emma Chen",
+    "Agustina Saenz",
+    "Oishi Banerjee",
+    "Henrik Marklund",
+    "Lucas Bijnens",
+    "Sung Eun Kim",
+    "Evan James Zucker",
+    "Susan Cheng Shelmerdine",
+    "J Ramírez Palacio",
+    "Kent R. Kleinschmidt",
+    "Sathvik Suryadevara"
+  ],
+  "venue": "Nature Biomedical Engineering",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41551-026-01812-6",
+  "abstract": "Despite growing clinical adoption of artificial intelligence in radiology, fewer than one in five commercially available models are cleared for paediatric use. Existing systems are trained predominantly on adult data and generalize poorly to neonates, yet efficient strategies for repurposing them without data sharing or large-scale local data curation are lacking. Here we present an international retrospective study of neonatal chest radiographs from 30 neonatal intensive care units across 20 countries and territories, evaluating continual learning as a privacy-preserving approach to adapt a deep learning model for adult endotracheal tube assessment to neonatal care. Each hospital contributed 50 radiographs for sequential model retraining without centralized data pooling. Continual learning achieved lower anatomical landmark localization error (0.67 cm versus 1.29 cm for hospital-specific fine-tuning and 4.30 cm for adult-only models) at 29 of 30 sites, with improved detection of deep intubations at 27 of 30 sites. These findings demonstrate that privacy-preserving collaborative learning can address critical gaps in paediatric AI deployment.",
+  "axes": [
+    "기관 간 일반화"
+  ],
+  "takeaway": "성인 영상으로 학습한 기관내관 평가 모델을 30개 NICU에서 순차적 연속학습으로 적응시키면 병원별 미세조정(1.29 cm)과 성인 모델(4.30 cm)보다 낮은 0.67 cm 오차를 보였다.",
+  "relevance": "우리 코호트는 5개 기관에서 기관당 48~62건으로 소규모이고 장비 9종이 섞여 있어, 기관당 소량의 영상으로 데이터를 모으지 않고 적응시키는 이 논문의 설정과 규모가 비슷합니다. 기관별 소수 샘플로 인한 일반화 한계를 논의할 때 참고할 만합니다.",
+  "caveat": "신생아 기관내관 위치 과제이며 우리 데이터는 연령 9~87세 성인·청소년 흉부 X선의 소견 라벨뿐이라 결과를 직접 재현하거나 검증할 수 없습니다. 기관 간 성능 차이를 평가하기에는 소견별 표본도 적습니다.",
+  "check": "기관당 약 50건의 소량 데이터만으로 순차 연속학습을 했을 때 마지막에 학습한 기관으로의 편향이나 망각이 있었는지 확인해 볼 수 있을까?"
+}
