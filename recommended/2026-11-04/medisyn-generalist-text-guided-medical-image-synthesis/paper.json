@@ -1,0 +1,15 @@
+{
+  "id": "medisyn-generalist-text-guided-medical-image-synthesis",
+  "title": "A generalist model for diverse text-guided medical image synthesis",
+  "authors": ["Joseph Cho", "Mrudang Mathur", "Cyril Zakka", "Dhamanpreet Kaur", "Matthew Leipzig", "Kelly C. Higa", "Alex Dalal", "Aravind Krishnan", "Eubee Koo", "Karen M. Wai", "Cindy S. Zhao", "Akshay Sanjay Chaudhari"],
+  "venue": "npj Digital Medicine",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41746-026-03381-z",
+  "abstract": "Deep learning requires extensive data to achieve robust performance. However, data availability is often restricted in medicine due to patient privacy concerns. Synthetic data from medical image generative models present a possible solution to these challenges. Unfortunately, many models are often task-specific or trained on private datasets, limiting scalability and reproducibility. To address this, we introduce MediSyn: an open-access, generalist, text-guided latent diffusion model. MediSyn can generate images across 6 medical specialties and 10 imaging modalities, while being trained exclusively on public data. Our study provides several key contributions using MediSyn. First, we demonstrate that a generalist model can generate images of comparable quality to task-specific models across multiple specialties. Second, we show that this generalist approach is more computationally efficient than a suite of task-specific models. Third, we establish that a generalist model can produce realistic, text-aligned images across visually and medically distinct modalities. Fourth, we empirically demonstrate that these synthetic images are visually distinct from real images used in training. Finally, we show that a generalist model can produce images that improve classifier performance in data-limited settings across multiple specialties. Altogether, our findings highlight the potential of generalist image generative models to accelerate medical algorithmic research and development.",
+  "axes": ["합성 데이터"],
+  "takeaway": "공개 데이터만으로 학습한 범용 텍스트 유도 확산 모델 MediSyn이 여러 전문 영역의 합성 영상을 만들고, 데이터가 부족한 환경에서 분류기 성능을 개선할 수 있음을 보였다.",
+  "relevance": "우리 데이터셋은 272건 전부가 합성으로 표시되어 있고 소견 라벨은 희소하다(Nodule 7건, Pneumothorax 5건, Emphysema 4건 등). 드문 소견을 합성 영상으로 보강하는 접근과 직접 맞닿는다.",
+  "caveat": "이 논문은 흉부 X선 판독 결과나 독자 연구 같은 임상 지표를 제시하지 않으며, 우리 합성 영상의 품질이나 실제 영상과의 차이는 확인해 주지 못한다.",
+  "check": "희소 소견(결절, 기흉 등)을 합성 영상으로 보강했을 때, 실제 영상과 구분되지 않으면서 분류기 성능이 오르는지 우리 라벨 구성에서 점검할 수 있는가?"
+}
