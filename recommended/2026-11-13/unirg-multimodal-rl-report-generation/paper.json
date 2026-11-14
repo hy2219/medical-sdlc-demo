@@ -1,0 +1,31 @@
+{
+  "id": "unirg-multimodal-rl-report-generation",
+  "title": "Scaling medical imaging report generation with multimodal reinforcement learning",
+  "authors": [
+    "Qianchu Liu",
+    "Sheng Zhang",
+    "Guanghui Qin",
+    "Yu Gu",
+    "Ying Jin",
+    "Sam Preston",
+    "Yanbo Xu",
+    "Sid Kiblawi",
+    "Wen-wai Yim",
+    "Timothy Ossowski",
+    "Tristan Naumann",
+    "Mu Wei"
+  ],
+  "venue": "Nature Communications",
+  "year": 2026,
+  "source": "OpenAlex",
+  "url": "https://doi.org/10.1038/s41467-026-78767-4",
+  "abstract": "In medical imaging report generation, supervised fine-tuning can overfit to superficial patterns and generalize poorly across institutions. We introduce Universal Report Generation (UNIRG), which adopts reinforcement learning to directly optimize clinically meaningful quality criteria. With this framework, we developed UNIRG-CXR, an 8-billion-parameter vision–language model trained on four public datasets (MIMIC-CXR, CheXpert Plus, ReXGradient-160k and IU-Xray) by supervised fine-tuning followed by reinforcement learning (group-relative policy optimization) against a composite lexical, semantic and clinical-error reward. We evaluated held-out test sets and an external proprietary dataset, with RadCliQ as primary metric and expert radiologist validation. Here we show that our method improves report quality and generalization: UNIRG-CXR surpasses prior models on the ReXrank benchmark across four datasets and two generation settings, exceeding the previous best score by over 50% on two test sets, and produces fewer clinically significant errors while maintaining performance on unseen data sources and across demographic subgroups.",
+  "axes": [
+    "기관 간 일반화",
+    "임상 오류 평가"
+  ],
+  "takeaway": "강화학습으로 임상적으로 의미 있는 보상을 직접 최적화한 흉부 X선 보고서 생성 모델이 기존 모델보다 보고서 품질이 높고 임상적으로 유의한 오류가 적으며, 외부 데이터와 인구통계 하위집단에서도 성능이 유지된다고 주장한다.",
+  "relevance": "우리 코호트는 흉부 X선 272건(환자 153명)이며 기관 코드 5개, 장비 9종, 촬영 2010–2021년에 걸쳐 있어 기관·장비 간 일반화를 점검하기에 적합하다. 성별은 여성 136건·남성 136건으로 균형이고 PA 184건·AP 88건으로 촬영 자세도 섞여 있어 하위집단 성능 비교의 틀이 된다.",
+  "caveat": "우리 데이터는 합성 영상이고 마스킹된 자유 텍스트 보고서는 사용하지 않으므로 보고서 생성 품질이나 오류율은 확인할 수 없다. 희소 소견(Nodule 7건, Pneumothorax 5건 등)은 표본이 작아 소견별 평가도 어렵다.",
+  "check": "외부 검증 데이터의 기관·장비 구성이 우리 코호트(5개 기관, 9종 장비)와 얼마나 비슷하며, 임상적 오류가 AP 촬영이나 희소 소견에서 더 많이 발생하는가?"
+}
